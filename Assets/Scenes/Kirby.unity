@@ -439,8 +439,7 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: StartBallGame, Assembly-CSharp
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2204069621426241343, guid: 4ac5627c569d5d34caa70d900b1c66e5, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac5627c569d5d34caa70d900b1c66e5, type: 3}
 --- !u!1 &623569065
 GameObject:
@@ -2001,6 +2000,18 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1350784369, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
+      propertyPath: oneHandRotationModeFar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350784369, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
+      propertyPath: oneHandRotationModeNear
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350784369, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
+      propertyPath: twoHandedManipulationType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1350784371, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
       propertyPath: m_Constraints
       value: 0
@@ -2075,5 +2086,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1350784371, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
-    - {fileID: 1049332804, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dc3c16a89ba6eee4c8bae8ded8b531a5, type: 3}
