@@ -5,6 +5,7 @@ public class Win : MonoBehaviour
 {
     public AudioClip fanfareSound;
     public AudioSource musicSource;
+    public GameObject replayButton;
 
     void OnTriggerEnter(Collider other)
     {
@@ -18,6 +19,9 @@ public class Win : MonoBehaviour
 
             // Play the fanfare sound
             musicSource.PlayOneShot(fanfareSound);
+
+            replayButton.SetActive(true);
+            Destroy(other.gameObject);
         }
     }
 }
